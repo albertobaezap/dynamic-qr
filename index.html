@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect QR</title>
+
+  <script>
+    const urls = [
+      "https://hanapsicologia.com/",
+      "http://hanapsicologia.com/contacto/"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * urls.length);
+    window.location.replace(urls[randomIndex]);
+  </script>
+
+</head>
+
+<body>
+  Redirigiendo...
+</body>
+</html>
